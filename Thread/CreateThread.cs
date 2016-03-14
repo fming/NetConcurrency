@@ -13,10 +13,7 @@ namespace Test
 
         public static async void Test()
         {
-            new Thread(Go).Start(); // .NET 1.0
-            Task.Factory.StartNew(Go); // .NET 4.0 introduce the TPL
-            await Task.Run(new Action(Go)); // .NET 4.5 add new "Run" function
-
+            new Thread(Go).Start(); // .NET 1.0            
         }
 
         public static void Go()

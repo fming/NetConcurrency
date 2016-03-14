@@ -12,11 +12,6 @@ namespace ConsoleApplication3
 
             new Thread(delegate() { GoGoGo("args1", "args2", "args3"); }); // after we have anoymous delegate
 
-            Task.Run(() =>
-                {
-                    GoGoGo("args1", "args2", "args3");
-                });
-            
         }
 
         static void Go(object name)
