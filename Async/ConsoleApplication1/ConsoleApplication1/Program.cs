@@ -10,7 +10,7 @@ namespace ConsoleApplication1
         {
             //!! [1:] 
             Console.WriteLine("Main Thread Id :{0}", Thread.CurrentThread.ManagedThreadId);
-            Test();
+            Test(); 
             Console.ReadLine();
         }
 
