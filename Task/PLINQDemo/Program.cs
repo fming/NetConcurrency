@@ -14,11 +14,14 @@ namespace PLINQDemo
     {
         static void Main(string[] args)
         {
+            PartitionTest.Test();
+            //OrderTest.Test();
+
             //CalculationPrime();
             //UpcaseString();
             //SpellCheck();
 
-            PingDemo();
+            //PingDemo();
 
             Console.WriteLine("Waiting......");
             Console.ReadLine();

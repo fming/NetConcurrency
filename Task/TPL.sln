@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCancelDemo", "TaskCance
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitDemo", "WaitDemo\WaitDemo.csproj", "{33ECDBD0-7256-4D54-8ACC-43769BFA9110}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapReduceDemo", "MapReduceDemo\MapReduceDemo.csproj", "{378B5E76-056D-49B3-BB2D-97A83DE1847D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LookupDemo", "LookupDemo\LookupDemo.csproj", "{86CF082C-E6A8-4AAC-AC1D-F4209CE4D206}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +111,14 @@ Global
 		{33ECDBD0-7256-4D54-8ACC-43769BFA9110}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33ECDBD0-7256-4D54-8ACC-43769BFA9110}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33ECDBD0-7256-4D54-8ACC-43769BFA9110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{378B5E76-056D-49B3-BB2D-97A83DE1847D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378B5E76-056D-49B3-BB2D-97A83DE1847D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378B5E76-056D-49B3-BB2D-97A83DE1847D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378B5E76-056D-49B3-BB2D-97A83DE1847D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86CF082C-E6A8-4AAC-AC1D-F4209CE4D206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CF082C-E6A8-4AAC-AC1D-F4209CE4D206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CF082C-E6A8-4AAC-AC1D-F4209CE4D206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CF082C-E6A8-4AAC-AC1D-F4209CE4D206}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
